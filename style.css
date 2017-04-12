@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    font-size: 30px;
+    margin: 8px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    display: block;
+    margin: 15px;
+}
+
+nav a.lonley{
+    align-self: flex-end;
+}
+
+.benefits{
+    display: flex;
+}
+
+div.benefit{
+    max-width: 150px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+section.benefits{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.sayings{
+    min-height: 80vh;
+    background-image: url(Fruits.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.sayings p{
+    font-size: 30px;
+}
